@@ -48,8 +48,8 @@ body {
 .screen h2 {
     margin-bottom: 20px;
     font-size: 30px;
-    color: #46efbf;
-    border-bottom: 4px solid #000000;
+    color: #0ecfff;
+    border-bottom: 4px solid #3c3b3b;
     padding: 5px 0px;
     display: inline-block;
 }
@@ -68,8 +68,8 @@ body {
 
 .screen .form-input button {
     padding: 10px 20px;
-    background: #af5d1a;
-    color: #eee;
+    background: #0ecfff;
+    color: #000000;
     font-size: 16px;
     cursor: pointer;
     outline: none;
@@ -77,7 +77,7 @@ body {
 }
 
 .chat-screen .header {
-    background: #cfe844;
+    background: #0ecfff;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -87,15 +87,15 @@ body {
 
 .chat-screen .header .logo {
     font-size: 18px;
-    color: #eee;
+    color: #000000;
     font-weight: 600;
 }
 
 .chat-screen .header button {
     padding: 5px 10px;
-    border: 1px solid #eee;
+    border: 1px solid #000000;
     background: transparent;
-    color: #eee;
+    color: #000000;
     font-size: 15px;
     cursor: pointer;
     outline: none;
@@ -103,9 +103,9 @@ body {
 
 .chat-screen .messages {
     width: 100%;
-    height: calc(100% - 100px);
+    height: calc(100vh - 100px);
     background: #f5f5f5;
-    overflow: auto;
+    overflow: y;
 }
 
 .chat-screen .messages .message {
@@ -145,9 +145,10 @@ body {
 }
 
 .chat-screen .typebox {
-    width: 100%;
-    height: 50px;
+    width: 50%;
     display: flex;
+    position: fixed;
+    bottom: 0;
 }
 
 .chat-screen .typebox input {
@@ -157,10 +158,10 @@ body {
 }
 
 .chat-screen .typebox button {
-    width: 80px;
-    height: 100%;
-    background: #111;
-    color: #eee;
+    width: 100px;
+    height: 50px;
+    background: #0ecfff;;
+    color: #000000;
     font-size: 16px;
     outline: none;
     border: none;
