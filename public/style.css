@@ -17,8 +17,9 @@ body {
     height: 100%;
     max-width: 600px;
     background: #fff;
-    border-left: 1px solid #eee;
-    border-right: 1px solid #eee;
+    /* border-left: 1px solid #eee;
+    border-right: 1px solid #eee; */
+    border: 1px solid black;
 }
 
 .app>.screen {
@@ -38,6 +39,7 @@ body {
     transform: translate(-50%, -50%);
     width: 80%;
     max-width: 400px;
+    
 }
 
 .screen .form-input {
@@ -145,7 +147,7 @@ body {
 }
 
 .chat-screen .typebox {
-    width: 50%;
+    width: 31%;
     display: flex;
     position: fixed;
     bottom: 0;
