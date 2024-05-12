@@ -1,10 +1,10 @@
 <b>KONNECT</b>
 
-Frontend technologies:
- 1.HTML 
- 2.CSS 
- 3.JS
+Frontend technologies:<br>
+ 1.HTML <br>
+ 2.CSS <br>
+ 3.JS<br>
 
-Backend technologies : 
-1.Node.js
-2.socket.io
+Backend technologies : <br>
+1.Node.js<br>
+2.socket.io<br>
