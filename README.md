@@ -1,5 +1,5 @@
 <b>KONNECT</b><br>
-Basic private chat application
+Basic private group chat application
 
 Frontend technologies:<br>
  1.HTML <br>
